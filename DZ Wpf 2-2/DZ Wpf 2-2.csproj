@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>DZ_Wpf_2_2</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="image\1.jpg" />
+    <None Remove="image\2.jpg" />
+    <None Remove="image\3.jpg" />
+    <None Remove="image\4.jpg" />
+    <None Remove="image\5.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="image\1.jpg" />
+    <Resource Include="image\2.jpg" />
+    <Resource Include="image\3.jpg" />
+    <Resource Include="image\4.jpg" />
+    <Resource Include="image\5.jpg" />
+  </ItemGroup>
+
+</Project>
